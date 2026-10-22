@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blinqpay - Get Your Payment Faster</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav">
+        <a href="#" class="logo">
+          <img src="images/Logo.png" alt="Blinqpay" />
+        </a>
+
+        <!-- burger button (pure CSS, shown on screens 900px and under) -->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle menu"
+        />
+        <label for="nav-toggle" class="burger" aria-hidden="true"
+          ><span></span
+        ></label>
+
+        <ul class="menu">
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li class="menu-extra"><a href="#">Support</a></li>
+          <li class="menu-extra"><a href="#signin" data-signin>Sign In</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a href="#" class="support">Support</a>
+          <a href="#signin" class="btn btn-yellow" data-signin>Sign In</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Get Your<br />Payment Faster</h1>
+          <p>
+            Blinqpay helps businesses in Africa get paid by anyone, anywhere in
+            the world
+          </p>
+          <a href="#" class="btn btn-blue">Start Now</a>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="laptop"
+            src="images/dashboard.png"
+            alt="Blinqpay dashboard on laptop"
+          />
+        </div>
+      </div>
+
+      <!-- logos row shown inside the hero on phones only -->
+      <div class="partners partners-hero" aria-hidden="true">
+        <span class="landrover">LAND<br />ROVER</span
+        ><span class="forbes">Forbes</span><span class="etsy">Etsy</span
+        ><span class="linkedin">in</span
+        ><span class="partner-mark"
+          ><img src="images/tiktok-logo.png" alt="tiktok"
+        /></span>
+      </div>
+    </header>
+    <main>
+      <section class="community container" id="products">
+        <!-- dashboard picture shown on phones only -->
+        <img
+          class="community-visual"
+          src="images/dashboard.png"
+          alt="Blinqpay dashboard"
+        />
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon">♟</span>
+            <h3>Easy Access</h3>
+            <p>Now track all of your transactions easily.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">▣</span>
+            <h3>Cashflow Visibility</h3>
+            <p>Keep track of your business activity.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">⌁</span>
+            <h3>Use You Connect</h3>
+            <p>Stay in touch with your customers easily.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">▤</span>
+            <h3>Manage Invoicing</h3>
+            <p>Save time on all your invoicing needs.</p>
+          </article>
+        </div>
+        <div class="section-copy">
+          <h2>Make &amp; Share<br /><em>Payments</em> With<br />Community</h2>
+          <p>
+            Make and share all your payments. Create solutions that help your
+            community grow.
+          </p>
+          <a class="text-link" href="#solutions">Learn more <span>⟶</span></a>
+        </div>
+      </section>
+      <div class="white-content">
+        <div class="partners container" aria-label="Partner logos">
+          <span class="landrover">LAND<br />ROVER</span
+          ><span class="forbes">Forbes</span><span class="etsy">Etsy</span
+          ><span class="linkedin">in</span
+          ><span class="partner-mark"
+            ><img src="images/tiktok-logo.png" alt="tiktok"
+          /></span>
+        </div>
+        <section class="story container" id="solutions">
+          <div class="section-copy">
+            <span class="eyebrow">CREDIT CARD</span>
+            <h2>Payment<br /><em>Gets Easier</em></h2>
+            <p>
+              Put your money at your fingertips.<br />Enjoy a seamless and
+              secure payment experience.
+            </p>
+            <a href="#get-started" class="text-link"
+              >Learn more <span>⟶</span></a
+            >
+          </div>
+          <div class="story-art">
+            <img
+              class="tablet"
+              src="assets/tablet.png"
+              alt="A floating tablet showing a tropical landscape"
+              loading="lazy"
+            />
+          </div>
+        </section>
+        <section class="story story-reverse container">
+          <div class="story-art">
+            <img
+              class="people"
+              src="assets/people.png"
+              alt="People connected through the Blinqpay community"
+              loading="lazy"
+            />
+          </div>
+          <div class="section-copy">
+            <span class="eyebrow">MOBILE TRANSACTION</span>
+            <h2>Smart Mobile<br /><em>Banking</em></h2>
+            <p>
+              Make your everyday payments simple.<br />Banking that connects you
+              with your community.
+            </p>
+            <a href="#get-started" class="text-link"
+              >Learn more <span>⟶</span></a
+            >
+          </div>
+        </section>
+        <section class="story savings container" id="pricing">
+          <div class="section-copy">
+            <span class="eyebrow">SECURE TRANSACTIONS</span>
+            <h2>Safe Yours<br /><em>Savings</em></h2>
+            <p>
+              Keep your savings safe and secure.<br />Make a move toward your
+              goals with confidence.
+            </p>
+            <a href="#get-started" class="text-link"
+              >Learn more <span>⟶</span></a
+            >
+          </div>
+          <div class="story-art gallery-art">
+            <img
+              class="gallery"
+              src="assets/gallery.png"
+              alt="A collage of people, businesses, and everyday moments"
+              loading="lazy"
+            />
+          </div>
+        </section>
+      </div>
+      <section class="testimonials" id="company">
+        <div class="testimonial-inner container">
+          <div class="testimonial-copy">
+            <h2>What Our <em>Customer</em><br />Are saying</h2>
+            <p>
+              We care about the people who use Blinqpay.<br />Helping our
+              community move forward, together.
+            </p>
+          </div>
+          <div class="quote-cloud">
+            <figure class="quote">
+              <img src="assets/leo.png" alt="Customer portrait" />
+              <blockquote>
+                “The ease of payments, fast and secure transfers.<br />The
+                convenience of being connected, wherever you are.”
+              </blockquote>
+              <figcaption>LEO MAYNE<span>Community member</span></figcaption>
+            </figure>
+            <img class="floating-face face-one" src="assets/face1.png" alt="" />
+            <img class="floating-face face-two" src="assets/face2.png" alt="" />
+            <img
+              class="floating-face face-three"
+              src="assets/face3.png"
+              alt=""
+            />
+            <img
+              class="floating-face face-four"
+              src="assets/face4.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="cta container" id="get-started">
+        <h2>What Are You <em>Waiting For?</em></h2>
+        <a
+          class="button button-yellow"
+          href="mailto:hello@blinqpay.com?subject=Get%20started%20with%20Blinqpay"
+          >Try Blinqpay</a
+        >
+      </section>
+    </main>
+    <footer>
+      <div class="footer-grid container">
+        <div class="footer-brand">
+          <a href="#home" class="logo"
+            ><svg viewBox="0 0 32 36" aria-hidden="true">
+              <path
+                d="m18 2 5 7-5 7-5-7zM12 14l6 5-8 13H3l8-13-5-3zM23 13l7 6-7 12-7-2 8-10-5-2z"
+                fill="currentColor"
+              /></svg
+            >blinqpay</a
+          >
+          <div class="socials">
+            <a href="https://www.instagram.com/" aria-label="Instagram">◎</a>
+            <a href="https://www.twitter.com/" aria-label="Twitter">♥</a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+          </div>
+          <p>© Blinqpay 2026<br />All rights reserved.</p>
+        </div>
+        <div>
+          <h3>Services</h3>
+          <a href="#solutions">Design</a><a href="#products">Coding</a
+          ><a href="#solutions">Development</a><a href="#products">Marketing</a
+          ><a href="#solutions">Digital Marketing</a
+          ><a href="#company">Product Design</a>
+        </div>
+        <div>
+          <h3>Products</h3>
+          <a href="#products">Hotel Management</a
+          ><a href="#solutions">Rent Management</a
+          ><a href="#products">Microfinance</a><a href="#pricing">Industry</a
+          ><a href="#products">Dhaka</a>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <a href="#company">About Blinqpay</a><a href="#company">Our Team</a
+          ><a href="#company">Careers</a
+          ><a href="mailto:hello@blinqpay.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <!-- SIGN IN POP-UP -->
+    <dialog id="signin-dialog" class="signin" aria-labelledby="signin-title">
+      <div class="signin-box">
+        <button type="button" class="dialog-close" aria-label="Close">
+          &times;
+        </button>
+
+        <h2 id="signin-title">Welcome back</h2>
+        <p class="signin-sub">Sign in to your Blinqpay account</p>
+
+        <form id="signin-form" novalidate>
+          <label for="si-email">Email</label>
+          <input
+            type="email"
+            id="si-email"
+            name="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+          />
+
+          <label for="si-password">Password</label>
+          <div class="password-field">
+            <input
+              type="password"
+              id="si-password"
+              name="password"
+              placeholder="Enter your password"
+              autocomplete="current-password"
+              minlength="6"
+              required
+            />
+            <button
+              type="button"
+              class="toggle-pass"
+              aria-label="Show password"
+            >
+              Show
+            </button>
+          </div>
+
+          <div class="signin-row">
+            <label class="remember"
+              ><input type="checkbox" name="remember" /> Remember me</label
+            >
+            <a href="#" class="forgot">Forgot password?</a>
+          </div>
+
+          <p class="form-msg" id="signin-msg" role="alert"></p>
+
+          <button type="submit" class="btn btn-yellow signin-submit">
+            Sign In
+          </button>
+        </form>
+
+        <p class="signin-foot">
+          Don't have an account? <a href="#">Sign up</a>
+        </p>
+      </div>
+    </dialog>
+
+    <script>
+      const dialog = document.getElementById("signin-dialog");
+      const form = document.getElementById("signin-form");
+      const msg = document.getElementById("signin-msg");
+      const pass = document.getElementById("si-password");
+
+      // open the pop-up from any "Sign In" link
+      document.querySelectorAll("[data-signin]").forEach((link) => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.getElementById("nav-toggle").checked = false; // close burger menu
+          msg.textContent = "";
+          dialog.showModal();
+        });
+      });
+
+      // close: X button, click outside the box, or Esc key (built in)
+      dialog
+        .querySelector(".dialog-close")
+        .addEventListener("click", () => dialog.close());
+      dialog.addEventListener("click", (e) => {
+        if (e.target === dialog) dialog.close();
+      });
+
+      // show / hide password
+      const toggle = dialog.querySelector(".toggle-pass");
+      toggle.addEventListener("click", () => {
+        const show = pass.type === "password";
+        pass.type = show ? "text" : "password";
+        toggle.textContent = show ? "Hide" : "Show";
+      });
+
+      // validate + submit
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        msg.className = "form-msg";
+        if (!form.email.value.includes("@")) {
+          msg.textContent = "Please enter a valid email address.";
+          return;
+        }
+        if (pass.value.length < 6) {
+          msg.textContent = "Password must be at least 6 characters.";
+          return;
+        }
+        // TODO: send form.email.value and pass.value to your server here
+        msg.className = "form-msg ok";
+        msg.textContent = "Signed in successfully (demo).";
+        setTimeout(() => dialog.close(), 1200);
+      });
+    </script>
+  </body>
+</html>
